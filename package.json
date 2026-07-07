@@ -2,7 +2,7 @@
   "name": "dithermancer",
   "version": "0.1.0",
   "description": "Summon dithered pixel-art charts in React/Next.js — dark, animated, retro. Data doesn't have to be boring.",
-  "license": "MIT",
+  "license": "Unlicense",
   "author": "Iann29",
   "repository": {
     "type": "git",

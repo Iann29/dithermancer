@@ -186,4 +186,4 @@ Visual style inspired by [grim](https://x.com/grimcodes)'s "evil dither charts" 
 
 ## License
 
-MIT
+[The Unlicense](https://unlicense.org) — public domain. Take it, fork it, sell it, ship it. No attribution needed.
