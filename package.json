@@ -1,6 +1,6 @@
 {
   "name": "dithermancer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Summon dithered pixel-art charts in React/Next.js — dark, animated, retro. Data doesn't have to be boring.",
   "license": "Unlicense",
   "author": "Iann29",
@@ -27,7 +27,8 @@
   "scripts": {
     "build": "tsup",
     "typecheck": "tsc --noEmit",
-    "demo": "esbuild demo/main.tsx --bundle --outfile=demo/bundle.js --jsx=automatic --minify=false"
+    "demo": "esbuild demo/main.tsx --bundle --outfile=demo/bundle.js --jsx=automatic --minify=false",
+    "prepare": "tsup"
   },
   "keywords": [
     "charts",
