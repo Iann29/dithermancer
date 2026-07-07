@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>dithermancer — data doesn't have to be boring</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { background: #0a0a0c; }
+    body {
+      font-family: ui-monospace, "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+      color: #c8cdd6;
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 48px 24px 120px;
+    }
+    h1 { font-size: 20px; font-weight: 600; color: #e6e8ec; }
+    h2 { font-size: 14px; font-weight: 500; color: #9aa0a8; margin: 56px 0 8px; }
+    .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .hint { color: #6b7078; font-size: 12px; margin-top: 16px; }
+    button {
+      font: inherit; font-size: 12px;
+      color: #c8cdd6; background: #1a1b1f;
+      border: 1px solid #2c2e34; border-radius: 6px;
+      padding: 6px 12px; cursor: pointer;
+    }
+    button:hover { background: #232429; }
+    button.on { background: #2c2e34; color: #fff; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 720px) { .grid3, .grid2 { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="./bundle.js"></script>
+</body>
+</html>

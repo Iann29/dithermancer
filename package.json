@@ -1,0 +1,54 @@
+{
+  "name": "dithermancer",
+  "version": "0.1.0",
+  "description": "Summon dithered pixel-art charts in React/Next.js — dark, animated, retro. Data doesn't have to be boring.",
+  "license": "MIT",
+  "author": "Iann29",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iann29/dithermancer.git"
+  },
+  "homepage": "https://github.com/Iann29/dithermancer#readme",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "demo": "esbuild demo/main.tsx --bundle --outfile=demo/bundle.js --jsx=automatic --minify=false"
+  },
+  "keywords": [
+    "charts",
+    "pixel-art",
+    "dither",
+    "react",
+    "nextjs",
+    "canvas",
+    "dataviz"
+  ],
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "esbuild": "^0.24.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0"
+  }
+}
